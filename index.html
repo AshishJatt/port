@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A collection of front-end web development projects built with HTML, CSS and JavaScript.">
+  <title>Web Development Projects | Ashish</title><link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html">Ashish<span>.</span></a><nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#about">About</a><a href="final-portfolio/index.html">Portfolio</a></nav></header>
+  <main>
+    <section class="hero"><p class="eyebrow">HTML · CSS · JAVASCRIPT</p><h1>Building useful experiences<br><span>for the web.</span></h1><p class="hero-copy">A collection of practical front-end projects demonstrating responsive layouts, form validation, and interactive user interfaces.</p><a class="button" href="#projects">Explore projects <span aria-hidden="true">→</span></a></section>
+    <section id="projects" class="section"><div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Project collection</h2></div><p>Four small projects, one growing skill set.</p></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-art art-one"><span>01</span><strong>PORTFOLIO</strong></div><div class="project-info"><p class="tag">HTML · CSS</p><h3>Personal Portfolio Page</h3><p>A responsive profile page with sticky navigation, a hero section and project cards.</p><a href="portfolio/index.html">View project <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-art art-two"><span>02</span><strong>VALIDATE</strong></div><div class="project-info"><p class="tag">HTML · CSS · JS</p><h3>Form Validation</h3><p>A contact form that checks name, email and password inputs and displays clear feedback.</p><a href="form-validation/index.html">View project <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-art art-three"><span>03</span><strong>TECHSTORE</strong></div><div class="project-info"><p class="tag">HTML · CSS</p><h3>TechStore Landing Page</h3><p>An electronics storefront concept with a promotional banner and responsive product grid.</p><a href="techstore/index.html">View project <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-art art-four"><span>04</span><strong>PROFILE</strong></div><div class="project-info"><p class="tag">HTML · CSS · JS</p><h3>Multi-Section Portfolio</h3><p>A complete portfolio layout with About, Education, Projects and Contact sections.</p><a href="final-portfolio/index.html">View project <span>↗</span></a></div></article>
+      </div>
+    </section>
+    <section id="about" class="about section"><p class="eyebrow">ABOUT THIS REPOSITORY</p><h2>Learning by building.</h2><p>These projects were developed as practical exercises in front-end web development. They focus on semantic HTML, modern CSS layouts, responsive design, DOM manipulation and browser-based form validation.</p><div class="tech-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span></div></section>
+  </main>
+  <footer class="footer"><span>© <span id="year"></span> Ashish · Web Development Projects</span><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></footer><script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
